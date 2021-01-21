@@ -1,0 +1,54 @@
+/* selector {
+    Property: value;
+    } */
+    html {
+        background: url(Bull\ Sign\ 2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+    }
+
+    /* body{background-image: url(Bull\ Sign\ 2.jpg);
+        background-size: cover;
+        } */
+    /* img {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    } */
+
+ 
+
+    h3{
+        color: #AA3F39;
+        text-align: center;
+        border: 5px dashed rgba(127, 195, 135, 0.7);
+        background-color: rgba(100, 154, 152, 0.2);
+        line-height: 20px;
+        font-style: oblique;
+        font-weight: bold;
+        font-size: 120%;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        box-shadow: 8px 8px 10px rgba(109, 108, 108, 0.5);
+    }
+    
+    li{
+        color:#AA3F39;
+        list-style: none;
+        text-align: center;
+        font-weight: bold;
+        font-style: oblique;
+        font-size: 130%;
+        line-height: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        box-shadow: 8px 8px 10px rgba(109, 108, 108, 0.5);
+        transform: all 4s;
+        cursor: pointer;
+        
+    }
+
+    li:hover {
+        transform: scale(1.1);
+    }
